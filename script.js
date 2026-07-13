@@ -78,3 +78,6 @@ monBouton.addEventListener('click', () => {
     monBouton.classList.add('active');
     monElement.classList.remove('hidden');
 });
+monElement.addEventListener('click', () => {
+    monElement.classList.remove('hidden');
+});
